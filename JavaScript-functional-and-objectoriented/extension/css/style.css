@@ -1,0 +1,25 @@
+body{
+	overflow: hidden;
+}
+
+div{
+	position: absolute;
+}
+
+.player{
+	width: 100px;
+	height: 100px;
+	background-color: #000;	
+}
+
+.enemy{
+	width: 50px;
+	height: 50px;
+	background-color: #F00;
+}
+
+.bullet{
+	width: 10px;
+	height: 10px;
+	background-color: #00F;
+}

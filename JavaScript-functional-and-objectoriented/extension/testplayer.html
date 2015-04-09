@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Test player class</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<script src="js/player.js"></script>
+	<script>
+		var app = app || {};
+
+		var player = new app.Player();
+		player.createPlayer();
+		console.log("Player created at:", player.getCoordinates());
+		player.moveRight();
+		player.moveRight();
+		player.moveRight();
+		player.moveRight();
+		player.moveRight();
+		console.log("After 5 times moveRight", player.getCoordinates());
+
+	</script>
+</body>
+</html>
