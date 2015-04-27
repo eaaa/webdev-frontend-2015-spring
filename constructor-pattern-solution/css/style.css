@@ -1,0 +1,11 @@
+.player, .enemy{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: orange;
+	position: absolute;
+}
+
+.enemy{
+	background-color: cyan;
+}
